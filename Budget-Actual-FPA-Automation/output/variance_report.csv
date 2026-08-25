@@ -1,0 +1,16 @@
+month,department,gl_account,gl_account_name,budget_amount,actual_amount,variance_amount,variance_pct,is_material,likely_driver
+2025-10,GRS,6310,GRS Contractor Fees,1450000,1725000,275000,0.1896551724137931,True,contractor usage extended to cover a delayed project timeline
+2025-10,Retail Stores,6015,Store Payroll - Overtime,650000,910000,260000,0.4,True,unplanned overtime to cover peak in-store traffic
+2025-10,Retail Stores,6010,Store Payroll - Regular,18500000,18720000,220000,0.011891891891891892,True,seasonal store headcount timing ahead of the holiday ramp
+2025-10,Retail Marketing,6500,In-Store Marketing & Merchandising,610000,742000,132000,0.21639344262295082,True,an unplanned in-store merchandising campaign
+2025-10,Facilities,6610,Store Repairs & Maintenance,275000,401000,126000,0.4581818181818182,True,unplanned facility repairs at multiple stores
+2025-10,Retail IT,6420,POS Hardware Maintenance,265000,340000,75000,0.2830188679245283,True,unplanned POS hardware repairs at several locations
+2025-10,Retail IT,6410,Retail IT Support Contracts,540000,612000,72000,0.13333333333333333,True,incremental support-contract scope added mid-quarter
+2025-10,GRS,6300,GRS Corporate FTE Payroll,4150000,4080000,-70000,-0.016867469879518072,True,corporate FTE hiring pacing behind plan
+2025-10,Retail Stores,6200,Store Utilities,780000,805000,25000,0.03205128205128205,False,higher utility rates / seasonal HVAC usage
+2025-10,Facilities,6620,New Store Pre-Opening Costs,410000,385000,-25000,-0.06097560975609756,False,new-store opening timeline pulled forward
+2025-10,Facilities,6600,Store Remodel - Minor Capex Opex,320000,298000,-22000,-0.06875,False,remodel work phased later than planned
+2025-10,Retail Stores,6100,Store Supplies,410000,395000,-15000,-0.036585365853658534,False,lower store supply consumption than planned
+2025-10,GRS,6320,GRS Travel & Entertainment,180000,171000,-9000,-0.05,False,reduced corporate travel activity
+2025-10,Retail Marketing,6510,Retail Events,145000,138000,-7000,-0.04827586206896552,False,an event de-scoped or postponed
+2025-10,Retail IT,6400,Retail IT Software Licenses,920000,918000,-2000,-0.002173913043478261,False,software licensing in line with plan

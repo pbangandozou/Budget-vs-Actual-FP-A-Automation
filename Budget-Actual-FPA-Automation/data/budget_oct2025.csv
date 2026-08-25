@@ -1,0 +1,16 @@
+month,department,gl_account,gl_account_name,budget_amount
+2025-10,Retail Stores,6010,Store Payroll - Regular,18500000
+2025-10,Retail Stores,6015,Store Payroll - Overtime,650000
+2025-10,Retail Stores,6100,Store Supplies,410000
+2025-10,Retail Stores,6200,Store Utilities,780000
+2025-10,GRS,6300,GRS Corporate FTE Payroll,4150000
+2025-10,GRS,6310,GRS Contractor Fees,1450000
+2025-10,GRS,6320,GRS Travel & Entertainment,180000
+2025-10,Retail IT,6400,Retail IT Software Licenses,920000
+2025-10,Retail IT,6410,Retail IT Support Contracts,540000
+2025-10,Retail IT,6420,POS Hardware Maintenance,265000
+2025-10,Retail Marketing,6500,In-Store Marketing & Merchandising,610000
+2025-10,Retail Marketing,6510,Retail Events,145000
+2025-10,Facilities,6600,Store Remodel - Minor Capex Opex,320000
+2025-10,Facilities,6610,Store Repairs & Maintenance,275000
+2025-10,Facilities,6620,New Store Pre-Opening Costs,410000
