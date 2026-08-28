@@ -20,11 +20,30 @@ except ImportError:
 
 st.set_page_config(
     page_title="BvA Variance Analysis | FP&A",
-    page_icon="▣",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
+if "show_welcome" not in st.session_state:
+    st.session_state.show_welcome = True
+
+if st.session_state.show_welcome:
+    @st.dialog("Welcome to BvA")
+    def welcome_dialog():
+        st.markdown("""
+**What it is:** BvA is a Budget vs. Actual project that compares monthly budgeted spending to actual GL spending. It finds large differences, helps identify possible reasons for those differences, and creates a short summary of the results. I built both a Python version and a Streamlit dashboard.
+
+**How to use it:** Upload your budget and actual CSV files and adjust the variance threshold in the dashboard. You can also run the Python version from the command line. The project can use the Anthropic API to create the variance comments.
+
+**Why it matters:** Comparing budget to actual spending every month can take a lot of time when done manually. This project makes the process faster by finding large variances, identifying possible drivers, and creating a summary of the results.
+        """)
+
+        if st.button("Continue to BvA", use_container_width=True):
+            st.session_state.show_welcome = False
+            st.rerun()
+
+    welcome_dialog()
 # ============================================================
 # STYLING (same green system)
 # ============================================================
